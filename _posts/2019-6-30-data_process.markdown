@@ -2,7 +2,7 @@
 layout: post
 title:  "data_process"
 date:   2019-11-24 14:07:35 +0800
-categories: essay
+categories: commend
 ---
 
 shell 脚本
@@ -20,4 +20,5 @@ sudo service docker start/sudo systemctl start docker
 
 # List containers
 docker ps
-'''
+
+```
