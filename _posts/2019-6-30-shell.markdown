@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "shell"
+date:   2018-4-30 20:35:35 +0800
+categories: command
+---
+
+基本操作
+```
+# 根据\t切分文件
+awk -F"\t" '{print $2"\t"$3}'
+
+# gbk utf8转换
+iconv -f GBK -t UTF-8 category.txtso -o cate.txt
+
+# kill 进程
+kill -9 `ps -ef |grep yangz|awk '{print $2}' ` 
+
+```
+
+sed
+```
+# 删除自身
+sed -i '/编辑/d' sed.en-zh.en-zh
+
+# 查找带有chungking 重庆的句子
+sed -n '/hungking.*重庆/p' align.0319.en-zh
+
+# 删除a.txt中含"abc"的行，将操作之后的结果保存到a.log
+sed -e '/abc/d'  a.txt  > a.log
+
+```
