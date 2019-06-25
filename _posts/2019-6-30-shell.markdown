@@ -15,6 +15,9 @@ iconv -f GBK -t UTF-8 category.txtso -o cate.txt
 
 # kill 进程
 kill -9 `ps -ef |grep yangz|awk '{print $2}' ` 
+# 或者
+ppp=$(pgrep -f main_)
+kill -9 $ppp
 
 ```
 
