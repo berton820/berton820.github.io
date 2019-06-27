@@ -11,7 +11,7 @@ email: berton820@126.com
 description: 一个菜鸟
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://josephlin.club" # the base hostname & protocol for your site
-twitter_username: berton 
+#twitter_username: berton 
 github_username:  berton820
 
 # Build settings
