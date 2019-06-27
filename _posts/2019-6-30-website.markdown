@@ -6,9 +6,10 @@ categories: commend
 ---
 
 机器学习
-https://mp.weixin.qq.com/s/_tzUst15UmCDGLYJm6vLGA 机器学习笔记
-https://github.com/rushter/MLAlgorithms 机器学习基本算法实践
-https://mp.weixin.qq.com/s/V55a0aixoZzrienzi-DHNg 李航书概括知识点
+
+<https://mp.weixin.qq.com/s/_tzUst15UmCDGLYJm6vLGA> 机器学习笔记
+<https://github.com/rushter/MLAlgorithms> 机器学习基本算法实践
+<https://mp.weixin.qq.com/s/V55a0aixoZzrienzi-DHNg> 李航书概括知识点
 
 深度学习
 ```
