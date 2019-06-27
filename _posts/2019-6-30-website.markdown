@@ -12,30 +12,30 @@ categories: commend
 <https://mp.weixin.qq.com/s/V55a0aixoZzrienzi-DHNg> 李航书概括知识点
 
 深度学习
-```
-https://github.com/dalmia/Deep-Learning-Book-Chapter-Summaries  deeplearning配套代码
-https://www.cnblogs.com/callyblog/ 一个写tensorflow 小代码的
-http://www.tensorinfinity.com/index.php?r=front/knowledgelist&cata=%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0 公众号技术文章
-http://zh.d2l.ai/ 动手深度学习
-```
+
+<https://github.com/dalmia/Deep-Learning-Book-Chapter-Summaries>  deeplearning配套代码
+<https://www.cnblogs.com/callyblog/> 一个写tensorflow 小代码的
+<http://www.tensorinfinity.com/index.php?r=front/knowledgelist&cata=%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0> 公众号技术文章
+<http://zh.d2l.ai/> 动手深度学习
+<https://github.com/dragen1860/TensorFlow-2.x-Tutorials> tensorflow2.0
+<https://github.com/dragen1860/Deep-Learning-with-PyTorch-Tutorials> pytorch
 
 NLP
-```
-https://github.com/policeme/transformer-pointer-generator  文本摘要
-https://github.com/graykode/nlp-tutorial nlp小代码实现
-http://web.stanford.edu/class/cs224n/index.html#schedule cs224n
-https://mp.weixin.qq.com/s/JjQZ4LjumNnA7yI0G05JzQ  nlp视频资源
-https://www.zhihu.com/question/324189960?utm_source=wechat_session&utm_medium=social&utm_oi=551285346349035520 nlp入门算法复现
-http://nlp.seas.harvard.edu/2018/04/03/attention.html harvad transformer
-https://mp.weixin.qq.com/s/FIkx8ZJkWV-IIad79aJDHw 深度文本分类综述
-https://github.com/rasbt/deeplearning-models 简单的ipy模型代码
-https://mp.weixin.qq.com/s/XtlV3P40926STKQUz0NV0A nlp资源总结
-https://fancyerii.github.io/2019/03/14/dl-book/ 李理的开源书
-https://github.com/cedrickchee/awesome-bert-nlp bert模型github合集
-http://nlp.seas.harvard.edu/code/ Harvard NLP 很好
-```
+
+<https://github.com/policeme/transformer-pointer-generator>  文本摘要
+<https://github.com/graykode/nlp-tutorial> nlp小代码实现
+<http://web.stanford.edu/class/cs224n/index.html#schedule> cs224n
+<https://mp.weixin.qq.com/s/JjQZ4LjumNnA7yI0G05JzQ>  nlp视频资源
+<https://www.zhihu.com/question/324189960?utm_source=wechat_session&utm_medium=social&utm_oi=551285346349035520> nlp入门算法复现
+<http://nlp.seas.harvard.edu/2018/04/03/attention.html> harvad transformer
+<https://mp.weixin.qq.com/s/FIkx8ZJkWV-IIad79aJDHw> 深度文本分类综述
+<https://github.com/rasbt/deeplearning-models> 简单的ipy模型代码
+<https://mp.weixin.qq.com/s/XtlV3P40926STKQUz0NV0A> nlp资源总结
+<https://fancyerii.github.io/2019/03/14/dl-book/> 李理的开源书
+<https://github.com/cedrickchee/awesome-bert-nlp> bert模型github合集
+<http://nlp.seas.harvard.edu/code/> Harvard NLP 很好
 
 刷题
 ```
-https://github.com/wangzheng0822/algo/tree/master/python 基础算法
+<https://github.com/wangzheng0822/algo/tree/master/python> 基础算法
 ```
