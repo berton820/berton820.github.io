@@ -13,6 +13,7 @@ categories: commend
 
 <https://mp.weixin.qq.com/s/V55a0aixoZzrienzi-DHNg> 李航书概括知识点
 
+<https://github.com/ddbourgin/numpy-ml> numpy 实现
 # 深度学习
 
 <https://github.com/dalmia/Deep-Learning-Book-Chapter-Summaries>  deeplearning配套代码
@@ -27,6 +28,7 @@ categories: commend
 
 <https://github.com/dragen1860/Deep-Learning-with-PyTorch-Tutorials> pytorch
 
+<https://mlelarge.github.io/dataflowr-web/cea_edf_inria.html> 五天入门Pytorch
 # NLP
 
 <https://github.com/policeme/transformer-pointer-generator>  文本摘要
@@ -56,3 +58,7 @@ categories: commend
 # 刷题
 
 <https://github.com/wangzheng0822/algo/tree/master/python> 基础算法
+
+# 比赛
+<https://github.com/zhpmatrix/nlp-competitions-list-review> nlp比赛综合
+

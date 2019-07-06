@@ -5,7 +5,7 @@ date:   2019-11-24 14:07:35 +0800
 categories: commend
 ---
 
-初始设置
+初始化设置
 ```
 # TF_CPP_MIN_LOG_LEVEL默认值为 0 (显示所有logs)，设置为 1 隐藏 INFO logs, 2 额外隐藏WARNING logs, 设置为3所有 ERROR logs也不显示。
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'  #
