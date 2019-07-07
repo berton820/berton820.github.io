@@ -91,7 +91,9 @@ result = torch.bmm(tensor1, tensor2)
 # Element-wise multiplication.
 result = tensor1 * tensor2
 
-
+```
+欧氏距离
+```
 # X1 is of shape m*d.
 X1 = torch.unsqueeze(X1, dim=1).expand(m, n, d)
 # X2 is of shape n*d.
