@@ -62,3 +62,8 @@ categories: commend
 # 比赛
 <https://github.com/zhpmatrix/nlp-competitions-list-review> nlp比赛综合
 
+# pytorch
+<https://mp.weixin.qq.com/s/mURDCaicVq0fpAreWzwN5A> 常用代码片段
+
+# tensorflow
+

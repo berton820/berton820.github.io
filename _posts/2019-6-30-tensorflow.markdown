@@ -19,3 +19,7 @@ sess_config.log_device_placement = False
 sess = tf.Session(graph=graph, config=sess_config)
 
 ```
+
+
+# 网址
+<https://mp.weixin.qq.com/s/9etR8QEk4UXtoLqkJFQIHA> tf.metrics

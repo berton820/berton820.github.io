@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "regular"
+date:   2019-11-24 14:07:35 +0800
+categories: commend
+---
+
+正则去除<>里面的内容
+```
+c=re.sub(r'\<(.*?)\>','',a)
+
+```
+
+
+# 资源网站
+<https://mp.weixin.qq.com/s/zLTEzMczlrHrX9by0ccp5w> re归纳—公众号
