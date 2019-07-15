@@ -22,4 +22,5 @@ sess = tf.Session(graph=graph, config=sess_config)
 
 
 # 网址
+<https://mp.weixin.qq.com/s/x5TOCcg3BvRjsFzKJicgRg> tensorboard
 <https://mp.weixin.qq.com/s/9etR8QEk4UXtoLqkJFQIHA> tf.metrics

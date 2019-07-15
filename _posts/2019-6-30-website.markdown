@@ -6,7 +6,7 @@ categories: commend
 ---
 
 # 机器学习
-
+<https://datawhalechina.github.io/pumpkin-book/#/chapter1/chapter1>  西瓜书公式推导
 <https://mp.weixin.qq.com/s/_tzUst15UmCDGLYJm6vLGA> 机器学习笔记
 
 <https://github.com/rushter/MLAlgorithms> 机器学习基本算法实践
@@ -55,6 +55,7 @@ categories: commend
 
 <http://nlp.seas.harvard.edu/code/> Harvard NLP 很好
 
+<https://github.com/msgi/nlp-journey> NLP经典模型合集
 # 刷题
 
 <https://github.com/wangzheng0822/algo/tree/master/python> 基础算法

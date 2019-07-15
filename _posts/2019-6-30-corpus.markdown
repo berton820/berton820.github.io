@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "corpus"
+date:   2019-11-24 14:07:35 +0800
+categories: commend
+---
+
+title
+```
+<https://mp.weixin.qq.com/s/a0jzt9LBN7cJnoiavxWgxw>  nlp合集
+
+```
