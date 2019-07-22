@@ -33,3 +33,9 @@ sed -n '/hungking.*重庆/p' align.0319.en-zh
 sed -e '/abc/d'  a.txt  > a.log
 
 ```
+
+选择gpu卡
+```
+CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7
+```
+
