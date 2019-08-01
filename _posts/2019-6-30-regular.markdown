@@ -11,6 +11,13 @@ c=re.sub(r'\<(.*?)\>','',a)
 
 ```
 
+logging
+```
+logging.basicConfig(level=logging.INFO,
+                    stream=sys.stdout,
+                    format='[%(asctime)s] [%(filename)s:%(lineno)d] [%(levelname)s]\t%(message)s')
+logger = logging.getLogger()
+```
 
 # 资源网站
 <https://mp.weixin.qq.com/s/zLTEzMczlrHrX9by0ccp5w> re归纳—公众号
