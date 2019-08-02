@@ -30,6 +30,34 @@ def is_chinese_char(char):
         return True
 
     return False
+def is_chinese(s):
+    chnum = 0
+    ennum = 0
+    for ch in s:
+        if u'\u4e00' <= ch <= u'\u9fff':
+            chnum += 1
+        elif '\u0041' <= ch <= u'\u005a' or u'\u0061' <= ch <= u'\u007a':
+            ennum += 1
+
+    if chnum > 3 * ennum:
+        return 1
+    else:
+        return 0
+
+
+def is_english(s):
+    chnum = 0
+    ennum = 0
+    for ch in s:
+        if u'\u4e00' <= ch <= u'\u9fff':
+            chnum += 1
+        elif '\u0041' <= ch <= u'\u005a' or u'\u0061' <= ch <= u'\u007a':
+            ennum += 1
+
+    if 3 * chnum < ennum:
+        return 1
+    else:
+        return 0
 
 # 统计中文字符
 def char_len(inp):
