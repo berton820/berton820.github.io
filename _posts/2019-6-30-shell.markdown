@@ -9,7 +9,7 @@ categories: command
 ```
 # 根据\t切分文件
 awk -F"\t" '{print $2"\t"$3}'
-
+cat yang_test_seg_pairs.txt | awk -F"\t" '{if($4 == 0) print $0}' | wc -l
 # gbk utf8转换
 iconv -f GBK -t UTF-8 category.txtso -o cate.txt
 
