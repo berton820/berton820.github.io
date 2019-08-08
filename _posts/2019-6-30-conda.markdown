@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "conda"
+date:   2019-11-24 14:07:35 +0800
+categories: commend
+---
+
+
+```
+conda create -n my_conda python=3.6
+source activate my_conda
+source deactivate
+conda remove -n my_conda --all
+conda info --envs
+
+```
