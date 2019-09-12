@@ -12,6 +12,9 @@ awk -F"\t" '{print $2"\t"$3}'
 cat yang_test_seg_pairs.txt | awk -F"\t" '{if($4 == 0) print $0}' | wc -l
 # gbk utf8转换
 iconv -f GBK -t UTF-8 category.txtso -o cate.txt
+# grep 掉字母
+grep -v '[a-zA-Z]'
+
 
 # kill 进程
 kill -9 `ps -ef |grep yangz|awk '{print $2}' ` 
