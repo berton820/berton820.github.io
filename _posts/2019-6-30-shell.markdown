@@ -17,6 +17,9 @@ grep -v '[a-zA-Z]'
 # 根据第一列从大到小排序
 head src_vocab.52000 | sort -r -n -k 1 -t $'\t' --parallel=8
 
+解压：tar zxvf FileName.tar.gz
+压缩：tar zcvf FileName.tar.gz DirName
+
 # kill 进程
 kill -9 `ps -ef |grep yangz|awk '{print $2}' ` 
 # 或者
@@ -41,8 +44,4 @@ sed -e '/abc/d'  a.txt  > a.log
 选择gpu卡
 ```
 CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7
-```
-解压
-```
-tar -zxvf filename.tar.gz
 ```
