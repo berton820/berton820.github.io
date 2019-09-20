@@ -14,7 +14,8 @@ cat yang_test_seg_pairs.txt | awk -F"\t" '{if($4 == 0) print $0}' | wc -l
 iconv -f GBK -t UTF-8 category.txtso -o cate.txt
 # grep 掉字母
 grep -v '[a-zA-Z]'
-
+# 根据第一列从大到小排序
+head src_vocab.52000 | sort -r -n -k 1 -t $'\t' --parallel=8
 
 # kill 进程
 kill -9 `ps -ef |grep yangz|awk '{print $2}' ` 
