@@ -110,3 +110,14 @@ if not os.path.exists(path):
     os.makedirs(path)
 ```
 
+遍历文件夹
+```
+import os
+path = "./" #文件夹目录
+files= os.listdir(path) #得到文件夹下的所有文件名称
+with open("fout.txt","w")as fout:
+    for file in files: #遍历文件夹
+         if not os.path.isdir(file) and "txt" in file: #判断是否是文件夹，不是文件夹才打开
+            with open(file,"r")as fin:
+                pass
+```
