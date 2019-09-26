@@ -24,7 +24,16 @@ sess = tf.Session(graph=graph, config=sess_config)
 print("Total number of parameters: ",np.sum([np.prod(v.get_shape().as_list()) for v in tf.trainable_variables()]))
 ```
 
-
+自动选择GPU
+```
+if FLAGS.auto_gpu:
+    index_of_gpu = get_available_gpu()
+    FLAGS.gpu = 'gpu:' + str(index_of_gpu)
+    print('Use GPU {}'.format(index_of_gpu))
+else:
+    index_of_gpu = 0
+os.environ["CUDA_VISIBLE_DEVICES"] = str(index_of_gpu)
+```
 # 网址
 <https://mp.weixin.qq.com/s/x5TOCcg3BvRjsFzKJicgRg> tensorboard
 <https://mp.weixin.qq.com/s/9etR8QEk4UXtoLqkJFQIHA> tf.metrics
