@@ -17,7 +17,11 @@ sess_config.gpu_options.allow_growth = True
 sess_config.allow_soft_placement = True
 sess_config.log_device_placement = False
 sess = tf.Session(graph=graph, config=sess_config)
+```
 
+打印参数
+``` 
+print("Total number of parameters: ",np.sum([np.prod(v.get_shape().as_list()) for v in tf.trainable_variables()]))
 ```
 
 
