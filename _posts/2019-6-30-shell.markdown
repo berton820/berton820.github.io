@@ -20,6 +20,9 @@ head src_vocab.52000 | sort -r -n -k 1 -t $'\t' --parallel=8
 解压：tar zxvf FileName.tar.gz
 压缩：tar zcvf FileName.tar.gz DirName
 
+# 查看进程位置
+ll /proc/40786 | grep cwd
+
 # kill 进程
 kill -9 `ps -ef |grep yangz|awk '{print $2}' ` 
 # 或者
