@@ -120,4 +120,14 @@ with open("fout.txt","w")as fout:
          if not os.path.isdir(file) and "txt" in file: #判断是否是文件夹，不是文件夹才打开
             with open(file,"r")as fin:
                 pass
+
+import os
+#遍历文件夹   
+def iter_files(rootDir):
+    #遍历根目录
+    for root,dirs,files in os.walk(rootDir):
+        for file in files:
+            file_name = os.path.join(root,file)
+            print(file_name)
+
 ```
