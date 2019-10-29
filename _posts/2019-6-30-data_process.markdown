@@ -131,3 +131,10 @@ def iter_files(rootDir):
             print(file_name)
 
 ```
+
+```
+切分list
+def partition(lst, n):
+    division = len(lst) / n
+    return [lst[round(division * i):round(division * (i + 1))] for i in range(n)]
+```
