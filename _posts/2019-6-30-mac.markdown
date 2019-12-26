@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "mac"
+date:   2019-11-24 14:07:35 +0800
+categories: commend
+---
+
+没有声音
+```
+sudo killall coreaudiod
+
+```
